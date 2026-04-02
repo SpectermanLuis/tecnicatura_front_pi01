@@ -51,11 +51,10 @@ Se trata de una Landing Page de portafolio personal desarrollada únicamente con
 
 ### Repositorio y Publicación
 
-- [ ] Repositorio en GitHub creado.
-- [ ] Proyecto subido al repositorio.
-- [ ] Proyecto publicado utilizando VERCEL.
-- [ ] En el `README.md` se indica la URL de VERCEL.
-
+- [x] Repositorio en GitHub creado.
+- [x] Proyecto subido al repositorio.
+- [x] Proyecto publicado utilizando VERCEL.
+- [x] En el `README.md` se indica la URL de VERCEL.
 
 
 ---
@@ -123,4 +122,4 @@ Se trata de una Landing Page de portafolio personal desarrollada únicamente con
 - [x] Se añadieron comentarios adicionales describiendo decisiones de diseño y mejoras futuras.
 
 ### Comentarios varios 
-- Se hizo uso de IA en la generacion del avatar que me representa , en la determinacion de las mejores unidades de medida , en acomodar de forma prolija y ordenada la estructura del css y en la redaccion de varios parrafos del presente readme.
+- Se hizo uso de IA en la generacion del avatar que me representa , en la determinacion de las mejores unidades de medida , en acomodar de forma prolija y ordenada la estructura del css y en la redaccion de varios parrafos del presente readme. 
