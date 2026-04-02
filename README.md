@@ -1,9 +1,40 @@
-# Portafolio Personal — Dev_29
+# MATERIA - DESARROLLO DE SISTEMAS WEB ( FRONT END ) 
+# AÑO 2026
+# COMISION "D"  
+# DOCENTE: LUCIANO ARIEL MARTINEZ
 
-## Descripción del Proyecto
+## ALUMNO: LUIS OMAR SPECTERMAN  
+## PFO1  - Practica Formativa Obligatoria 1 - Indivicual
 
-Este es un **Trabajo Práctico (TP)** correspondiente a la **Práctica Formativa Obligatoria 1** del IFTS N°29.
-Se trata de una Landing Page de portafolio personal desarrollada únicamente con **HTML5 y CSS3**, que incluye secciones de presentación personal, proyectos, habilidades, formulario de contacto y películas favoritas.
+---
+
+## 📌 Descripcion del Proyecto
+
+Este es un **Trabajo Práctico (TP)** correspondiente a la **Práctica Formativa Obligatoria 1**  .
+Se trata de una Landing Page de portafolio personal desarrollada únicamente con **HTML y CSS**, que incluye secciones de presentación personal, proyectos, habilidades, formulario de contacto y películas favoritas.
+
+---
+
+> 🔗 URL REPOSITORIO GITHUB  : *https://github.com/SpectermanLuis/tecnicatura_front_pi01.git*
+
+> 🔗 URL VERCEL : *https://tecnicatura-front-pi01.vercel.app/*
+
+
+## 📂 Estructura de directorios
+
+
+```
+│ 
+├── css
+│ 
+├──── styles.css   Hoja de estilos
+│ 
+├── img   ( Imagenes usadas )
+│ 
+│                                              
+├── index.html   
+└── README.md # Documentación del proyecto
+```
 
 ---
 
@@ -22,10 +53,10 @@ Se trata de una Landing Page de portafolio personal desarrollada únicamente con
 
 - [ ] Repositorio en GitHub creado.
 - [ ] Proyecto subido al repositorio.
-- [ ] Proyecto publicado utilizando GitHub Pages.
-- [ ] En el `README.md` se indica la URL de GitHub Pages.
+- [ ] Proyecto publicado utilizando VERCEL.
+- [ ] En el `README.md` se indica la URL de VERCEL.
 
-> 🔗 URL GitHub Pages: *(completar una vez publicado)*
+
 
 ---
 
@@ -87,6 +118,9 @@ Se trata de una Landing Page de portafolio personal desarrollada únicamente con
 
 ### Consideraciones Adicionales
 
-- [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos (se usaron `clamp()`, `%`, `rem`, Grid con `auto-fit`, `flex-wrap`).
+- [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos 
 - [x] Se aplicaron buenas prácticas de accesibilidad (atributo `alt` en todas las imágenes, `aria-label` en links del footer, `label` asociados a todos los inputs del formulario).
 - [x] Se añadieron comentarios adicionales describiendo decisiones de diseño y mejoras futuras.
+
+### Comentarios varios 
+- Se hizo uso de IA en la generacion del avatar que me representa , en la determinacion de las mejores unidades de medida , en acomodar de forma prolija y ordenada la estructura del css y en la redaccion de varios parrafos del presente readme.
