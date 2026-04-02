@@ -1,0 +1,311 @@
+/* ── Variables ── */
+/* :root {
+  --color-bg: #0d0d14;
+  --color-surface: #14141f;
+  --color-surface-2: #1c1c2e;
+  --color-accent: #7c3aed;
+  --color-accent-light: #a78bfa;
+  --color-text: #e8e8f0;
+  --color-text-muted: #8888aa;
+  --color-border: rgba(255, 255, 255, 0.08);
+}
+ */
+
+:root {
+  --color-bg: #111827;
+  --color-surface: #1f2937;
+  --color-surface-2: #273549;
+  --color-accent: #7c3aed;
+  --color-accent-light: #a78bfa;
+  --color-text: #e8e8f0;
+  --color-text-muted: #a1a1aa;
+  --color-border: rgba(255, 255, 255, 0.08);
+}
+
+
+
+/* ── Reset ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/* ── Secciones ── */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* ── Header ── */
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header__contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav__link {
+  color: var(--color-text-muted);
+
+  display: inline-block;
+  padding: 8px 15px;
+  margin-right: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.nav__link:hover {
+  color: var(--color-accent);
+}
+
+/* ── Botones ── */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--color-accent-light);
+}
+
+/* ── Sobre mí ── */
+.sobre-mi__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sobre-mi__text {
+  flex: 1;
+}
+
+.sobre-mi__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.sobre-mi__desc {
+  color: var(--color-text-muted);
+  margin-bottom: 15px;
+}
+
+.sobre-mi__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* ── Tarjetas ── */
+.tarjetas {
+  background: var(--color-surface);
+  padding: 40px 20px;
+}
+
+.tarjetas__grid {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 15px;
+}
+
+.card__title {
+  margin-bottom: 5px;
+}
+
+.card__desc {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.card:hover {
+  background: var(--color-surface);
+}
+
+/* ── Habilidades ── */
+.habilidades__tables {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.habilidades__group {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 15px;
+}
+
+/* ── Tabla ── */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+  padding: 8px;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+/* ── Lista ── */
+.lista-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lista-skills li {
+  background: var(--color-surface-2);
+  padding: 8px;
+}
+
+/* ── Formulario ── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form__group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  padding: 10px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  color: white;
+}
+
+/* ── Películas ── */
+.peliculas__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.pelicula-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pelicula-card__img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pelicula-card__body {
+  padding: 15px;
+}
+
+.pelicula-card__title {
+  margin-bottom: 5px;
+}
+
+.pelicula-card__desc {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+/* ── Footer ── */
+.footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 20px;
+}
+
+.footer__contenido {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.footer__links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__link:hover {
+  color: var(--color-accent);
+}
+
+
+.footer__link img {
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+
+.footer__link img:hover {
+  transform: scale(1.2);
+}
